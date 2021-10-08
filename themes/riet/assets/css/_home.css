@@ -107,6 +107,9 @@ hr {
 	.hm-page-bnr-sub-title {
     	padding-right: 30px;
 	}
+	.page-banner{
+		height: 136px;
+	}
 }
 @media (max-width: 575px){
 	.hm-page-banner{
