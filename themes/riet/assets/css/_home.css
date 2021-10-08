@@ -90,6 +90,12 @@ hr {
 	.hm-page-bnr-sub-title {
     	padding-right: 35px;
 	}
+	.breadcrumb-sec-inr {
+    	display: none;
+	}
+	.breadcrumb-sec{
+		min-height: 27px;
+	}
 }
 @media (max-width: 767px){
 	.hm-page-banner{

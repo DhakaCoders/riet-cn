@@ -122,6 +122,9 @@
 	.show-xs{
 		display: block!important;
 	}
+	body{
+		font-size: 22px;
+	}
 
 }
 
