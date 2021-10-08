@@ -222,7 +222,7 @@
 .page-404 h3{
     font-size: 28px;
 }
-.page-404-wrp {
+.page-content.page-404-wrp {
     padding-top: 60px;
 }
 
@@ -288,6 +288,26 @@ Start blog
 }
 .post-des p a{
     text-decoration: none;
+    position: relative;
+    padding-right: 30px;
+    color: #000;
+    display: inline-block;
+}
+.post-des p a:after {
+    content: ">>";
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #000;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+.post-des p a:hover:after {
+    right: -5px;
+}
+.post-des p a:hover, .post-des p a:hover:after {
+    color: #0039a8;
 }
 .post-des h4 a:hover{
     color: #0039a8;
