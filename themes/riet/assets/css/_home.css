@@ -1,0 +1,77 @@
+.hm-page-bnr-cntlr{
+	position: relative;
+	text-align: center;
+}
+.hm-page-banner{
+	height: 932px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-banner-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.hm-page-bnr-des{
+	position: relative;
+	z-index: 3;
+
+}
+.hm-page-bnr-des-inr{
+	color: #fff;
+	position: relative;
+}
+
+
+.hm-page-bnr-des{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	background: url('../images/hm-page-bnr-des-img.png');
+	background-size: cover!important;
+	background-position: center center!important;
+	color: #fff;
+	text-align: right;
+}
+.hm-page-bnr-des-inr div{
+	padding-top: 10px;
+}
+.hm-page-bnr-sub-title,
+.hm-page-bnr-title{
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+.hm-page-bnr-title {
+    line-height: 0.8;
+}
+.hm-page-bnr-sub-title {
+    padding-right: 50px;
+}
+
+
+
+hr {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    border-top: none;
+    border-bottom: 6px solid #f1f1f1;
+}
+.rgh-content-sec {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 1699px){
+	.hm-page-bnr-sub-title {
+    	padding-right: 45px;
+	}
+}

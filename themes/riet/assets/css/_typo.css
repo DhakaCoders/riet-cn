@@ -1,0 +1,28 @@
+/**
+All heading
+*/
+h1,h2,h3,h4,h5,h6{
+	line-height: 1;	
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: 'MyriadPro-BoldSemiCn';
+	color: #0a1b25;
+}
+h1,.fl-h1{
+	font-size: 89px;
+}
+h2,.fl-h2{
+	font-size: 69px;
+}
+h3,.fl-h3{
+	font-size: 50px;
+}
+h4,.fl-h4{
+	font-size: 40px;
+}
+h5,.fl-h5{
+	font-size: 30px;
+}
+h6,.fl-h6{
+	font-size: 25px;
+}

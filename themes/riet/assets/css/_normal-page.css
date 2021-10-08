@@ -1,0 +1,28 @@
+.page-banner-cntlr{
+	position: relative;
+	text-align: center;
+}
+.page-banner{
+	height: 144px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page-banner-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.page-bnr-des{
+	position: relative;
+	z-index: 3;
+
+}
+.page-bnr-des-inr{
+	color: #fff;
+	position: relative;
+}
