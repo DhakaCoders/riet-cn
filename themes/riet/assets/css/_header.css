@@ -467,6 +467,9 @@ body.allWork .hamburgar-cross{
 	    -webkit-transform: scale3d(1,1,1);
 	    -o-transform: scale3d(1,1,1);
 	}
+	nav.main-nav > ul:after{
+		content: none;
+	}
 }
 @media (max-width: 767px){
 	.logo {
