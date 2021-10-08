@@ -124,6 +124,10 @@ hr {
 	.hm-page-bnr-sub-title {
     	padding-right: 25px;
 	}
+	hr{
+		padding-top: 20px;
+    	margin-bottom: 40px;
+	}
 
 }
 @media (max-width: 479px){

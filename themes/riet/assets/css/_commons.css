@@ -39,7 +39,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #512C36;
+  background: #0039a8;
 }
 
 
@@ -49,7 +49,7 @@ a{
 	font-weight: 600;
 }
 a:hover{
-	
+	color: #0a1b25;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575

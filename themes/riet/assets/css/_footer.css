@@ -38,6 +38,9 @@
     font-size: 23px;
     font-weight: 300;
 }
+.ftr-add-one a:hover{
+    color: #0a1b25;
+}
 .ftr-add-two a {
     font-family: 'MyriadPro-BoldSemiCn';
     text-decoration: none;
@@ -47,6 +50,9 @@
     padding-bottom: 12px;
     display: inline-block;
     text-transform: uppercase;
+}
+.ftr-add-two a:hover{
+    color: #0a1b25;
 }
 .ftr-add-one {
     padding: 10px;
@@ -192,7 +198,10 @@
     }
      .ftr-copyright p{
         font-size: 22px;
-     }
+    }
+    .ftr-top-cntlr{
+        padding-top: 170px;
+    }
 }
 @media (max-width: 575px){
     .ftr-logo {
@@ -215,6 +224,9 @@
     .ftr-add-two {
         padding: 5px;
         padding-right: 20px;
+    }
+    .ftr-top-cntlr{
+        padding-top: 150px;
     }
 }
 @media (max-width: 479px){

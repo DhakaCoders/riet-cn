@@ -56,7 +56,7 @@
 		font-size: 35px;
 	}
 	h5,.fl-h5{
-		font-size: 26px;
+		font-size: 28px;
 	}
 	h6,.fl-h6{
 		font-size: 20px;
@@ -108,7 +108,7 @@
 		font-size: 30px;
 	}
 	h5,.fl-h5{
-		font-size: 22px;
+		font-size: 24px;
 	}
 	h6,.fl-h6{
 		font-size: 18px;
@@ -125,11 +125,25 @@
 	body{
 		font-size: 22px;
 	}
+	h1,.fl-h1{
+		font-size: 40px;
+	}
+	h2,.fl-h2{
+		font-size: 32px;
+	}
+	h3,.fl-h3{
+		font-size: 40px;
+	}
+	h4,.fl-h4{
+		font-size: 26px;
+	}
 
 }
 
 @media(max-width: 479px){
-
+	body {
+    	font-size: 20px;
+	}
 
 }
 
