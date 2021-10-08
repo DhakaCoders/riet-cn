@@ -75,3 +75,67 @@ hr {
     	padding-right: 45px;
 	}
 }
+@media (max-width: 1199px){
+	.hm-page-bnr-sub-title {
+    	padding-right: 40px;
+	}
+}
+@media (max-width: 991px){
+	.hm-page-banner{
+		height: 600px;
+	}
+	.hm-page-bnr-des{
+		bottom: 40px;
+	}
+	.hm-page-bnr-sub-title {
+    	padding-right: 35px;
+	}
+}
+@media (max-width: 767px){
+	.hm-page-banner{
+		height: 565px;
+	}
+	.hm-page-bnr-des{
+		bottom: 30px;
+	}
+	.hm-page-bnr-sub-title {
+    	padding-right: 30px;
+	}
+}
+@media (max-width: 575px){
+	.hm-page-banner{
+		height: 450px;
+	}
+	.hm-page-bnr-des{
+		bottom: 24px;
+	}
+	h1.hm-page-bnr-title{
+		font-size: 40px;
+	}
+	h2.hm-page-bnr-sub-title{
+		font-size: 34px;
+	}
+	.hm-page-bnr-sub-title {
+    	padding-right: 25px;
+	}
+
+}
+@media (max-width: 479px){
+	h1.hm-page-bnr-title {
+    	font-size: 36px;
+	}
+	h2.hm-page-bnr-sub-title {
+    	font-size: 30px;
+	}
+	.hm-page-bnr-sub-title {
+    	padding-right: 16px;
+	}
+}
+@media (max-width: 359px){
+	h1.hm-page-bnr-title {
+    	font-size: 30px;
+	}
+	h2.hm-page-bnr-sub-title {
+    	font-size: 26px;
+	}
+}

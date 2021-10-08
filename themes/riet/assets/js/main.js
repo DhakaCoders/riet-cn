@@ -230,10 +230,19 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-    if( $('.hamburgar-cntlr').length ){
+if( $('.hamburgar-cntlr').length ){
   $('.hamburgar-cntlr').click(function(){
     $('body').toggleClass('allWork');
   });
+}
+
+if (windowWidth > 991) {
+  if( $('.hm-page-banner').length ){
+    var windowHeight = $(window).height();
+    if (windowHeight < 932) {
+      $('.hm-page-banner').css('height', windowHeight);
+    }
+  }
 }
 
 })(jQuery);
