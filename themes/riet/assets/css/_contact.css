@@ -156,7 +156,9 @@
 }
 
 @media(max-width: 479px){
-	
+	.input-field textarea{
+	    height: 170px;
+	}
 }
 
 @media(max-width: 359px){

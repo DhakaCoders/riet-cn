@@ -181,7 +181,7 @@
         margin: 0;
     }
     .ftr-details-col{
-        width: 55%;
+        width: 56%;
         padding: 0;
         margin-left: auto;
     }
@@ -218,9 +218,6 @@
     }
     .ftr-copyright p {
         font-size: 20px;
-    }
-    .ftr-details-col {
-        width: 60%;
     }
     .ftr-add-two {
         padding: 5px;

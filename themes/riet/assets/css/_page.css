@@ -366,6 +366,23 @@ Start blog
     position: absolute;
     background: url(../images/search-icon.png);
     background-repeat: no-repeat;
+    background-position: center center;
+    width: 38px;
+    height: 40px;
+    border: 0;
+    left: 3px;
+    top: 0;
+    bottom: 0;
+    padding: 15px 5px;
+    margin-top: 0;
+    cursor: pointer;
+    text-indent: -99999px;
+    font-size: 0;
+    line-height: 1;
+    z-index: 5;
+    /*position: absolute;
+    background: url(../images/search-icon.png);
+    background-repeat: no-repeat;
     width: 16px;
     height: 15px;
     border: 0;
@@ -375,7 +392,7 @@ Start blog
     cursor: pointer;
     text-indent: -99999px;
     font-size: 0;
-    line-height: 0;
+    line-height: 0;*/
 }
 
 .right-sidebar .screen-reader-text{
@@ -460,5 +477,8 @@ Start blog
 @media(max-width: 479px){
     .page-404 h1{
         font-size: 40px;
+    }
+    .page-404 h3 {
+        font-size: 27px;
     }
 }
