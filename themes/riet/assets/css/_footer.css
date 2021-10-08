@@ -1,16 +1,9 @@
 .footer-top{
 	position: relative;
 }
-.footer-top:after{
-	position: absolute;
-    content: "";
+.footer-top{
     background: url(../images/ftr-bg.jpg);
     background-repeat: repeat-x;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: -1;
 }
 .ftr-top-cntlr {
     display: flex;
