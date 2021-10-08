@@ -74,6 +74,7 @@ nav.main-nav > ul{
 	flex-wrap: wrap;
 	margin: 0 -13px;
 	margin-bottom: -5px;
+	margin-right: 0;
 	position: relative;
 }
 nav.main-nav > ul:after{
@@ -89,6 +90,7 @@ nav.main-nav > ul:after{
 nav.main-nav > ul > li{
 	position: relative;
 	padding: 5px 13px;
+	margin: 0 1px;
 	z-index: 1;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -102,11 +104,12 @@ nav.main-nav > ul > li > a{
 	font-family: 'MyriadPro-BoldSemiCn';
 }
 nav.main-nav > ul > li > a:hover,
-nav.main-nav > ul > li.menu-item-has-children:hover a,
-nav.main-nav > ul > li.current-menu-item > a{
+nav.main-nav > ul > li.menu-item-has-children:hover a{
 	color: #3b393e;
 }
-
+nav.main-nav > ul > li.current-menu-item > a{
+	color: #808080;
+}
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     position: absolute;
     top: 100%;
@@ -157,6 +160,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
 nav.main-nav > ul > li:hover{
 	background: #fff;
 	color: #000;
+}
+nav.main-nav > ul > li:hover a{
+	color: #3b393e;
 }
 
 .hdr-tel{
@@ -315,6 +321,7 @@ body.allWork .hamburgar-cross{
 	nav.main-nav > ul{
 		margin: 0 -11px;
 		margin-bottom: -5px;
+		margin-right: 0;
 	}
 	nav.main-nav > ul > li{
 		padding: 5px 11px;
@@ -337,6 +344,7 @@ body.allWork .hamburgar-cross{
 	nav.main-nav > ul{
 		margin: 0 -10px;
 		margin-bottom: -5px;
+		margin-right: 0;
 	}
 	nav.main-nav > ul > li{
 		padding: 5px 10px;
