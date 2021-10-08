@@ -52,7 +52,7 @@
     text-transform: uppercase;
 }
 .ftr-add-two a:hover{
-    color: #0a1b25;
+    opacity: 0.7;
 }
 .ftr-add-one {
     padding: 10px;
