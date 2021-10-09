@@ -9,7 +9,7 @@ if( !empty($banner) ):
 ?>
 <section class="page-banner-cntlr">
   <div class="page-banner">
-    <div class="page-banner-bg inline-bg" style="background:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-bg inline-bg" style="background:url(<?php echo $banner; ?>);"></div>
     <div class="page-bnr-des">
       <div class="container">
         <div class="row">
@@ -30,8 +30,8 @@ if( !empty($banner) ):
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="post-sec-cntrl">
-            <div class="post-items<?php echo $fullblock; ?>">
+          <div class="post-sec-cntrl<?php echo $fullblock; ?>">
+            <div class="post-items">
               <?php if(  have_posts() ): ?>
               <?php 
                   while(have_posts()): the_post(); 

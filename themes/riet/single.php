@@ -31,8 +31,8 @@ $imgtag = !empty($imgID)? cbv_get_image_tag($imgID): blog_placeholder('tag');
     <div class="container">
       <div class="row">
         <div class="col-md-12"> 
-          <div class="post-sec-cntrl">
-            <div class="post-items<?php echo $fullblock; ?>">
+          <div class="post-sec-cntrl<?php echo $fullblock; ?>">
+            <div class="post-items">
               <article class="post-item clearfix">
                 <div class="post-img">
                   <?php echo $imgtag; ?>
