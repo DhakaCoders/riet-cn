@@ -105,44 +105,12 @@
 	color: #0039a8;
 }
 
-
-@media (max-width: 1699px){
-	
+.cnt-form .wpcf7-not-valid-tip{
+    font-size: 16px;
 }
-
-
-@media (max-width: 1499px) {
-	
-}
-
-
-@media(max-width: 1399px){
-	
-
-}
-
-@media(max-width: 1299px){
-	
-}
-
-@media(max-width: 1199px){
-	
-}
-
-@media(max-width: 991px){
-	
-
-}
-@media(max-width: 785px){
-	
-}
-
-@media(max-width: 767px){
-	
-
-}
-@media(max-width: 639px){
-	
+.wpcf7 form.invalid .wpcf7-response-output, 
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900;
 }
 
 @media(max-width: 575px){

@@ -35,10 +35,6 @@
 	}
 }
 
-@media(max-width: 1299px){
-
-}
-
 @media(max-width: 1199px){
 	.hide-lg{
 		display: none!important;
@@ -144,9 +140,5 @@
 	body {
     	font-size: 20px;
 	}
-
-}
-
-@media(max-width: 359px){
 
 }
