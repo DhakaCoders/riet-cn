@@ -94,7 +94,7 @@ hr {
     	display: none;
 	}
 	.breadcrumb-sec{
-		min-height: 27px;
+		min-height: 26px;
 	}
 }
 @media (max-width: 767px){

@@ -485,6 +485,9 @@ body.allWork .hamburgar-cross{
 	nav.main-nav > ul:after{
 		content: none;
 	}
+	nav.main-nav > ul > li.current-menu-item {
+    	background: transparent; 
+	}
 }
 @media (max-width: 767px){
 	.logo {
@@ -492,7 +495,7 @@ body.allWork .hamburgar-cross{
 	}
 }
 @media (max-width: 575px){
-	/*.hamburgar-cntlr{
+	.hamburgar-cntlr{
 		height: 80px;
 		width: 70px;
 	}
@@ -505,11 +508,11 @@ body.allWork .hamburgar-cross{
 	}
 	.hdr-tel{
 		width: 70px;
-	}*/
+	}
 	.logo {
     	max-width: 230px;
 	}
-	/*.hamburgar-cntlr {
+	.hamburgar-cntlr {
     	height: 67px;
     	width: 65px;
 	}
@@ -533,7 +536,7 @@ body.allWork .hamburgar-cross{
 	}
 	.hdr-menu{
 		margin-top: -60px;
-	}*/
+	}
 	nav.main-nav > ul > li > a{
 		font-size: 36px;
 	}
@@ -553,14 +556,14 @@ body.allWork .hamburgar-cross{
 	.logo {
     	max-width: 190px;
 	}
-	/*.hamburgar-cntlr {
+	.hamburgar-cntlr {
     	height: 55px;
     	width: 60px;
-	}*/
+	}
 	body.allWork .hamburgar-cross{
 		top: 5px;
 	}
-	/*.hamburgar-icon {
+	.hamburgar-icon {
     	top: 10px;
 	}
 	.hdr-tel a span, 
@@ -578,7 +581,7 @@ body.allWork .hamburgar-cross{
 	}
 	.hdr-tel a span{
 		padding-top: 8px;
-	}*/
+	}
 	nav.main-nav > ul > li > a {
     	font-size: 30px;
 	}

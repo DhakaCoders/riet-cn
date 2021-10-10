@@ -85,3 +85,13 @@ ol li::before {
 .post-sec-cntrl.full-block-post .post-items {
     max-width: 100%;
 }
+@media (max-width: 575px){
+	.page-banner{
+		height: 100px;
+	}
+}
+@media (max-width: 479px){
+	.page-banner {
+    	height: 87px;
+	}
+}
