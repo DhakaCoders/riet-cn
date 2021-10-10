@@ -79,3 +79,9 @@ ol li::before {
 	text-align: center;
 	margin-top: 8px;
 }
+.post-sec-cntrl.full-block-post {
+    display: block;
+}
+.post-sec-cntrl.full-block-post .post-items {
+    max-width: 100%;
+}

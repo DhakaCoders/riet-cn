@@ -225,7 +225,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
-    new WOW().init();
+new WOW().init();
 
 
 
