@@ -89,6 +89,9 @@ ol li::before {
 	.page-banner{
 		height: 100px;
 	}
+	ol li::before{
+        font-size: 20px;
+    }
 }
 @media (max-width: 479px){
 	.page-banner {
