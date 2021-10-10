@@ -213,7 +213,8 @@ ul.sub-menu,
 .reset-slect ul,
 ul.ab-top-menu,
 .fl-pagination-cntlr ul,
-.attachments-browser ul{
+.attachments-browser ul,
+.sidebar-widget ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -224,7 +225,8 @@ ul.sub-menu li,
 .reset-slect ul li,
 ul.ab-top-menu li,
 .fl-pagination-ctlr ul li,
-.attachments-browser ul li{
+.attachments-browser ul li,
+.sidebar-widget ul li{
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -236,7 +238,8 @@ ul.sub-menu li:before,
 .reset-slect ul li:before,
 ul.ab-top-menu li:before,
 .fl-pagination-cntlr ul li:before,
-.attachments-browser ul li:before{
+.attachments-browser ul li:before,
+.sidebar-widget ul li:before{
 	content: none!important;
 }
 
